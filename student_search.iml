@@ -135,6 +135,23 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="bullet (vbundled(5.5.0), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/perf" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/tasks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/perf" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/bullet-5.5.0/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="byebug (vbundled(9.0.6), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/bin" />
@@ -824,6 +841,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uglifier-3.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="uniform_notifier (vbundled(1.10.0), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/uniform_notifier-1.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uniform_notifier-1.10.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uniform_notifier-1.10.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>

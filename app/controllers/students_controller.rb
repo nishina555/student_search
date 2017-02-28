@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
   def index
     @q = Student.ransack(params[:q])
-    @students = @q.result(distinct: true)
+    @students = @q.result.includes(:department, :subjects)
   end
 
   def search
