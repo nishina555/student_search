@@ -1,0 +1,18 @@
+h1
+  | 検索結果
+table
+  - @students.each do |student|
+    tr
+      td
+        = student.name
+      td
+        = student.sex
+      td
+        = student.age
+      td
+        = student.department.name
+      td
+        - student.subjects.each do |subject|
+          = subject.name
+          | ,
+= link_to 'トップ', root_path

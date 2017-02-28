@@ -635,6 +635,34 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="slim (vbundled(3.0.7), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7/benchmarks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-3.0.7/benchmarks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slim-rails (vbundled(3.1.1), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/slim-rails-3.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-rails-3.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-rails-3.1.1/gemfiles" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-rails-3.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/slim-rails-3.1.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="spring (vbundled(2.0.1), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/spring-2.0.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/spring-2.0.1/bin" />
@@ -696,6 +724,17 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/faq" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/lib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.13/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="temple (vbundled(0.7.7), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/temple-0.7.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/temple-0.7.7/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/temple-0.7.7/lib" />
         </SOURCES>
       </library>
     </orderEntry>

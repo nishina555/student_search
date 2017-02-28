@@ -1,0 +1,18 @@
+h1
+  | 学生検索
+= render 'search_form'
+table
+  - @students.each do |student|
+    tr
+      td
+        = student.name
+      td
+        = student.sex
+      td
+        = student.age
+      td
+        = student.department.name
+      td
+        - student.subjects.each do |subject|
+          = subject.name
+          | ,
