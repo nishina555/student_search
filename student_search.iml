@@ -167,6 +167,17 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="choice (vbundled(0.2.0), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/choice-0.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/choice-0.2.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/choice-0.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="coffee-rails (vbundled(4.2.1), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/coffee-rails-4.2.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-rails-4.2.1/lib" />
@@ -546,6 +557,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rails-erd (vbundled(1.5.0), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/rails-erd-1.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-erd-1.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-erd-1.5.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-erd-1.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-erd-1.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rails-html-sanitizer (vbundled(1.0.3), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/rails-html-sanitizer-1.0.3) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-html-sanitizer-1.0.3/lib" />
@@ -618,6 +642,21 @@
         <JAVADOC />
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rb-inotify-0.9.8/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-graphviz (vbundled(1.2.2), /Users/nishina/git/student_search/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2/man" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/ruby-graphviz-1.2.2/man" />
         </SOURCES>
       </library>
     </orderEntry>
