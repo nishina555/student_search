@@ -2,4 +2,26 @@
   p
     = f.label :name_cont, '名前'
     = f.search_field :name_cont
+  p
+    = f.label :department_id_eq, '学部'
+    = f.collection_select :department_id_eq, @departments, :id, :name, :include_blank => '指定なし'
+  p
+    = f.label :sex_eq, '性別'
+    = f.radio_button :sex_eq, '', {:checked => true}
+    | 指定なし
+    = f.radio_button :sex_eq, '男'
+    | 男
+    = f.radio_button :sex_eq, '女'
+    | 女
+  p
+    = f.label :age_gteq, '年齢'
+    = f.radio_button 'age_gteq', '', {:checked => true}
+    | 指定なし
+    = f.radio_button 'age_gteq', '15'
+    | 15歳以上
+    = f.radio_button 'age_gteq', '20'
+    | 20歳以上
+  p
+    =  f.label :subjects_id_in, '履修科目'
+    =  f.collection_check_boxes :subjects_id_in, @subjects, :id, :name
   = f.submit
