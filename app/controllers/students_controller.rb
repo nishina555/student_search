@@ -9,7 +9,6 @@ class StudentsController < ApplicationController
   def search
     @q = Student.search(search_params)
     @students = @q.result(distinct: true).includes(:department, :subjects)
-    @search_query = params[:q]
   end
 
   private

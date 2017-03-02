@@ -1,25 +1,25 @@
 h1
   | 検索クエリ
-- unless @search_query[:name_cont].empty?
+- unless params[:q][:name_cont].empty?
   | 名前:
-  = @search_query[:name_cont]
+  = params[:q][:name_cont]
   br
-- unless @search_query[:department_id_eq].empty?
+- unless params[:q][:department_id_eq].empty?
   | 学部:
-  = Department.find(@search_query[:department_id_eq]).name
+  = Department.find(params[:q][:department_id_eq]).name
   br
-- unless @search_query[:sex_eq].empty?
+- unless params[:q][:sex_eq].empty?
   | 性別:
-  = @search_query[:sex_eq]
+  = params[:q][:sex_eq]
   br
-- unless @search_query[:age_gteq].empty?
+- unless params[:q][:age_gteq].empty?
   | 年齢:
-  = @search_query[:age_gteq]
+  = params[:q][:age_gteq]
   | 歳以上
   br
-- unless @search_query[:subjects_id_in].reject(&:blank?).empty?
+- unless params[:q][:subjects_id_in].reject(&:blank?).empty?
   | 履修科目:
-  - @search_query[:subjects_id_in].reject(&:blank?).each do |subject_id|
+  - params[:q][:subjects_id_in].reject(&:blank?).each do |subject_id|
     = Subject.find(subject_id).name
     |,
 h1
