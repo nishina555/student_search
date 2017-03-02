@@ -22,6 +22,6 @@
     = f.radio_button 'age_gteq', '20'
     | 20歳以上
   p
-    =  f.label :subjects_id_in, '履修科目'
+    = f.label :subjects_id_in, '履修科目'
     =  f.collection_check_boxes :subjects_id_in, @subjects, :id, :name
   = f.submit
