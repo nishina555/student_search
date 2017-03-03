@@ -19,9 +19,7 @@ h1
   br
 - unless params[:q][:subjects_id_in].reject(&:blank?).empty?
   | 履修科目:
-  - params[:q][:subjects_id_in].reject(&:blank?).each do |subject_id|
-    = Subject.find(subject_id).name
-    |,
+  = params[:q][:subjects_id_in].reject(&:blank?).map{|subject_id| Subject.find(subject_id).name}.join(', ')
 h1
   | 検索結果
 table
@@ -36,7 +34,5 @@ table
       td
         = student.department.name
       td
-        - student.subjects.each do |subject|
-          = subject.name
-          | ,
+        = student.subjects.map{|subject_id| Subject.find(subject_id).name}.join(', ')
 = link_to 'トップ', root_path

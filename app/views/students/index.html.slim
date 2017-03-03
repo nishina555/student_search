@@ -13,6 +13,4 @@ table
       td
         = student.department.name
       td
-        - student.subjects.each do |subject|
-          = subject.name
-          | ,
+        = student.subjects.map{|subject_id| Subject.find(subject_id).name}.join(', ')
